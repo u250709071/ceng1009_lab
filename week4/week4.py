@@ -1,6 +1,5 @@
 # for i in range(100):
 #     print("We like Python's turtles(!)")
-from calendar import month
 
 
 
@@ -71,13 +70,13 @@ from calendar import month
 #     sabri.penup()
 #     sabri.forward(25)
 #     sabri.stamp()
-#     sabri.backward(165)
+#     sabri.backward(175)
 #     sabri.left(30)
 #
 # screen.exitonclick()
-#
-#
-#
+
+
+
 # import turtle
 # screen = turtle.Screen()
 # pirate = turtle.Turtle()
@@ -86,5 +85,76 @@ from calendar import month
 # for angle in turns:
 #     pirate.left(angle)
 #     pirate.forward(100)
-# print("Pirate fianl heading:", pirate.heading())
+# print("Pirate final heading:", pirate.heading())
+# screen.exitonclick()
+
+
+
+# import turtle
+#
+# sides = int(input("Enter the number of sides: "))
+# length = int(input("Enter the length: "))
+# penColor = input("Enter the pen color: ")
+# fillColor = input("Enter the fill color: ")
+#
+# angle = 360/sides
+#
+# screen = turtle.Screen()
+# oklid = turtle.Turtle()
+# oklid.pencolor(penColor)
+# oklid.fillcolor(fillColor)
+# oklid.pensize(5)
+# oklid.begin_fill()
+#
+# for i in range(sides):
+#     oklid.forward(length)
+#     oklid.left(angle)
+#
+# oklid.end_fill()
+#
+# screen.exitonclick()
+
+
+
+# import turtle
+# screen = turtle.Screen()
+# jewish = turtle.Turtle()
+# jewish.pensize(3)
+# jewish.left(36) #to obtain the exact same shape as the one in the question
+#
+# for i in range(5):
+#     jewish.forward(100)
+#     jewish.left(144)
+#
+# screen.exitonclick()
+
+
+
+# import turtle
+#
+# leg = int(input("Enter the number of legs: "))
+# angle1 = 360 / leg
+#
+# screen = turtle.Screen()
+# spider = turtle.Turtle()
+#
+# spider.penup()
+# spider.goto(0, -10)
+# spider.pendown()
+# spider.fillcolor("black")
+# spider.begin_fill()
+# spider.circle(10)
+# spider.end_fill()
+#
+# spider.penup()
+# spider.goto(0, 0)
+#
+# for i in range(leg):
+#     spider.left(angle1)
+#     spider.forward(10)
+#     spider.pendown()
+#     spider.forward(100)
+#     spider.penup()
+#     spider.backward(110)
+#
 # screen.exitonclick()
